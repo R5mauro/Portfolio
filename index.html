@@ -350,6 +350,9 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script>
         window.onload = function () {
+            window.scrollTo({
+                top: 0,
+            })
             fade(navEffect, "toDown", 0, 500);
             fade(heroEffect, "toUp", 0.6, 1050);
             // addEventListener("scroll", () => toTop(aboutEffect));
