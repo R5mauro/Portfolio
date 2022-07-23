@@ -16,7 +16,7 @@
     <header class="header">
         <div class="contenedor contenido-header">
             <div class="logo" style="opacity: 0;">
-                <p class=" logo-content"><a href="/">M
+                <p class=" logo-content"><a href="/portfolio">M
                         <span></span>
                         <span></span>
                         <span></span>
@@ -350,12 +350,11 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script>
         window.onload = function () {
-            window.scrollTo({
-                top: 0,
-            })
+            scroll({
+                top: 0
+            });
             fade(navEffect, "toDown", 0, 500);
             fade(heroEffect, "toUp", 0.6, 1050);
-            // addEventListener("scroll", () => toTop(aboutEffect));
             addEventListener("scroll", () => {
                 toTop2(skillsEffect)
                 toTop(worksEffect)
