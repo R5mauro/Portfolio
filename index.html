@@ -82,7 +82,11 @@
                             </ul>
                         </div>
                         <div class="imagen-sobre-mi">
-                            <img loading="lazy" src="build/img/me.jpg" alt="Me">
+                            <picture>
+                                <source srcset="build/img/me.webp" type="image/webp">
+                                <source srcset="build/img/me.jpg" type="image/jpeg">
+                                <img loading="lazy" src="build/img/me2.jpg" alt="Me">
+                            </picture>
                         </div>
                     </div>
                 </div>
@@ -260,8 +264,9 @@
                         <div class="img-item">
                             <div class="uno">
                                 <picture>
-                                    <source srcset="build/img/weatherApp.png" type="image/png">
-                                    <img src="build/img/weatherApp.png" alt="Item">
+                                    <source srcset="build/img/weatherApp.webp" type="image/webp">
+                                    <source srcset="build/img/weatherApp.jpg" type="image/jpeg">
+                                    <img src="build/img/weatherApp.jpg" alt="Item">
                                 </picture>
                             </div>
                         </div>
@@ -277,6 +282,7 @@
                     <div class="item">
                         <div class="img-item">
                             <picture>
+                                <source srcset="build/img/barberApp.webp" type="image/webp">
                                 <source srcset="build/img/barberApp.jpg" type="image/jpeg">
                                 <img loading="lazy" src="build/img/barberApp.jpg" alt="Item">
                             </picture>
@@ -293,6 +299,7 @@
                     <div class="item">
                         <div class="img-item">
                             <picture>
+                                <source srcset="build/img/dbzapp.webp" type="image/webp">
                                 <source srcset="build/img/dbzapp.jpg" type="image/jpeg">
                                 <img loading="lazy" src="build/img/dbzapp.jpg" width="300px" height="300px" alt="Item">
                             </picture>
