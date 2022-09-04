@@ -1,6 +1,6 @@
-# Portafolio Personal
+#Portafolio Personal
 Este proyecto fue creado con JS Vanilla
-## Demo Live
+##Demo Live
 [Link](https://r5mauro.github.io/portfolio)
 ##Librerias Utilizadas
 -EmailJS
