@@ -5,5 +5,5 @@ Este proyecto fue creado con JS Vanilla
 [Link](https://r5mauro.github.io/portfolio)
 
 ## Librerias Utilizadas
--EmailJS
--Toastify-JS
+- EmailJS
+- Toastify-JS
